@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(page_title="Tickets Dashboard", layout="wide")
+st.set_page_config(page_title="Complaints Dashboard", layout="wide")
 
 DATA_URL = "https://raw.githubusercontent.com/Beingjn/Streamlit_Chatbot_Example/main/new_categories1.xlsx"       
 DATE_COL = "date"                                            
@@ -67,13 +67,13 @@ cat_counts = (
 c1, c2 = st.columns(2)
 
 with c1:
-    st.subheader("Tickets by Country")
+    st.subheader("Complaints by Country")
     fig = px.pie(country_counts, names="country", values="count", hole=0.4)
     fig.update_traces(textinfo="label+value+percent")
     st.plotly_chart(fig, use_container_width=True)
 
 with c2:
-    st.subheader("Tickets by Category")
+    st.subheader("Complaints by Category")
     fig = px.pie(cat_counts, names="category", values="count", hole=0.4)
     fig.update_traces(textinfo="label+value+percent")
     st.plotly_chart(fig, use_container_width=True)
