@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Adaptive Space Music</name>
+  <author>Bnj49</author>
+  <supportedVersions>
+	<li>1.6</li>
+  </supportedVersions>
+  <packageId>Bnj49.adaptivespacemusic</packageId>
+  <description>
+A simple mod that alters the default space music behavior.
+
+You’re stuck with the same four tracks if you have a space base in Odyssey, even if your gravship spends most of the time on the planet. You’ll never hear the rest of the soundtrack again (except for Anomaly tracks). This mod changes that.
+
+New behavior:
+Planet maps only → nothing changes, no space music
+Space maps only → original space music sequence
+Space + planet → mixed sequence with all planet and space tracks
+
+Works on both normal and combat music.
+Includes all normal and combat music from all DLCs, but will work without them.
+Doesn’t override any vanilla music sequences. Anomaly music plays as normal.
+
+Compatibility:
+The mod adds a new transition worker that plays mixed sequences when both space and planet maps are present, so it’s partially compatible with music mods. Tracks those mods add won’t play while the mixed sequence is active.
+
+If you spend most of your time only have space maps, no planet maps at all, you might still want to have a mod that add more space music.
+  </description>
+</ModMetaData>

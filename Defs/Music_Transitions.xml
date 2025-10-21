@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MusicTransitionDef>
+    <defName>MixedRelax</defName>
+    <priority>80</priority>              
+    <sequence>MixedRelax</sequence>
+    <workerType>AdaptivespaceMusic.MixedMapsTransition</workerType>
+    <dangerRequirement>RequiresNoDanger</dangerRequirement>
+  </MusicTransitionDef>
+
+  <MusicTransitionDef>
+    <defName>MixedCombat</defName>
+    <priority>90</priority>          
+    <sequence>MixedCombat</sequence>
+    <workerType>AdaptivespaceMusic.MixedMapsTransition</workerType>
+    <dangerRequirement>RequiresDanger</dangerRequirement>
+  </MusicTransitionDef>
+
+</Defs>

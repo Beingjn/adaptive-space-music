@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Mixed Relax Music -->
+  
+  <MusicSequenceDef>
+    <defName>MixedRelax</defName>
+    <loopDelayRange>85~105</loopDelayRange>
+    <minTimeToPlay>30</minTimeToPlay>
+    <loop>true</loop>
+    <songs>
+	
+      <li>Floating_Points</li>
+      <li>Low_Planetary_Orbit</li>
+      <li>Sky_Farmer</li>
+      <li>Wabi_Sabi</li>
+	  <li>Noodle_Planetfall_a</li>
+	  <li>Noodle_Planetfall_b</li>
+	  <li>Noodle_Planetfall_c</li>
+	  <li>Noodle_Planetfall_d</li>
+	  <li>Noodle_Planetfall_e</li>
+	  <li>A_New_Day</li>
+	  <li>Noodle_Starscape_a</li>
+	  <li>Noodle_Starscape_b</li>
+	  <li>Noodle_Starscape_c</li>
+	  <li>Noodle_Starscape_d</li>
+	  <li>Noodle_Starscape_e</li>
+	  <li>Noodle_Starscape_f</li>
+	  <li>Noodle_Mirage_b</li>
+	  <li>Noodle_Mirage_c</li>
+	  <li>Noodle_Mirage_d</li>
+	  <li>Noodle_Mirage_e</li>
+	  <li>I_Like_It_Here</li>
+	  <li>Cruel_Sunrise</li>
+	  <li>Terraformer</li>
+	  <li>Moving_On</li>
+	  <li>Night_And_Day</li>
+	  <li>Tribal_Assembly</li>
+	  <li>Ice_Shaman</li>
+	  <li>Barnstar</li>
+	  <li>Ceta</li>
+	  <li>Alpaca</li>
+	  <li>Jovian_Cycle</li>
+	  <li>Rough_Trail</li>
+	  <li>Moon_Harvest</li>
+	  <li>Space_Junk</li>
+	  <li>These_Lands</li>
+	  <li>Gathering_In</li>
+	  <li>Seasons_Turn</li>
+	  <li>What_Gravity</li>
+	  <li>Traces</li>
+	  <li>Impermanent_Waves</li>
+
+    </songs>
+  </MusicSequenceDef>
+
+  <!-- Mixed Combat Music -->
+  
+  <MusicSequenceDef>
+    <defName>MixedCombat</defName>
+    <endOnNoDanger>true</endOnNoDanger>
+    <loopDelayRange>5~10</loopDelayRange>
+    <canBeInterrupted>false</canBeInterrupted>
+    <minTimeToPlay>30</minTimeToPlay>
+    <fadeoutLastSongDuration>5</fadeoutLastSongDuration>
+    <pausedVolumeFactor>0.5</pausedVolumeFactor>
+    <loop>true</loop>
+    <songs>
+      <li>Baubles</li>
+      <li>Is_There_Still_Time</li>
+	  <li>Here_It_Comes</li>
+	  <li>Close_The_Gates</li>
+	  <li>Riding_Out</li>
+	  <li>Dont_Freeze_Up</li>
+	  <li>Chaos_Bringer</li>
+
+    </songs>
+  </MusicSequenceDef>
+
+</Defs>

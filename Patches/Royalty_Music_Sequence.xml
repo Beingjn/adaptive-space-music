@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+
+    <match Class="PatchOperationSequence">
+      <operations>
+
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/MusicSequenceDef[defName='MixedRelax']/songs</xpath>
+          <value>
+            <li>Alignment</li>
+			<li>Architect</li>
+			<li>Believe</li>
+			<li>Block_Universe</li>
+			<li>Detatched_Viewpoint</li>
+			<li>Fealty</li>
+			<li>Information_Entropy</li>
+			<li>Meditate</li>
+			<li>Mind_Map</li>
+			<li>On_The_Surface</li>
+			<li>String_Theory</li>
+			<li>Succession</li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/MusicSequenceDef[defName='MixedCombat']/songs</xpath>
+          <value>
+            <li>Baselius</li>
+          </value>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+</Patch>
